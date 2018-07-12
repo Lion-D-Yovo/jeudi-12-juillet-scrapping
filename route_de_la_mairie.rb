@@ -34,7 +34,7 @@ end
 get_websites_towns
 
 # => Je recupere les adresses mails des villes a partir des sites webs des villes
-#je 
+#j'utilise les urls pour recuperer les e-mails
 def urls_to_emails(url)
     
     page = Nokogiri::HTML(open(url))
